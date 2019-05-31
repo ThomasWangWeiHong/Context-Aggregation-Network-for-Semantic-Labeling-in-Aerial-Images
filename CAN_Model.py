@@ -6,7 +6,7 @@ import rasterio
 from group_norm import GroupNormalization
 from keras import backend as K
 from keras.applications.resnet50 import ResNet50
-from keras.models import Input, load_model, Model
+from keras.models import Input, Model
 from keras.layers import Activation, Add, concatenate, Conv2D, Conv2DTranspose, Lambda, Multiply, UpSampling2D
 from keras.optimizers import Adam
 
